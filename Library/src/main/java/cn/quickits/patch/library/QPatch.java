@@ -5,4 +5,9 @@ package cn.quickits.patch.library;
  */
 
 public class QPatch {
+
+    public static void patch(String oldFile, String newFile, String patchFile) {
+        BsPatch.bspatch(oldFile, newFile, patchFile);
+    }
+
 }
