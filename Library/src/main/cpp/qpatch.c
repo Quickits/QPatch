@@ -36,5 +36,5 @@ JNIEXPORT void JNICALL Java_cn_quickits_patch_library_BsPatch_bspatch
     (*env)->ReleaseStringUTFChars(env, newFile, newfile);
     (*env)->ReleaseStringUTFChars(env, patchFile, patchfile);
 
-    LOGD("%s", "lala");
+    LOGD("%s", "finish");
 }
